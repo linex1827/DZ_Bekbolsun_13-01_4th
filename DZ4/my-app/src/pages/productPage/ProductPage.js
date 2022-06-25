@@ -9,6 +9,7 @@ class ProductPage extends React.Component {
 
     handleInput = (e) => {
         this.setState({
+            ...this.state,
             [e.target.name]: e.target.value
         })
     }
