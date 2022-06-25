@@ -16,9 +16,9 @@ class ProductPage extends React.Component {
     onSubmit = () => {
         const data = {
             name: this.state.name,
-            surname: this.state.name,
-            age: this.state.name,
-            address: this.state.name
+            surname: this.state.surname,
+            age: this.state.age,
+            address: this.state.address
 
         }
         console.log(data)
